@@ -1,0 +1,2715 @@
+{
+  "contractName": "Price",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "CostPerMile",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "CostPerMminute",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "PassengersRideFare",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "RideDistance",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "basePrice",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "bookingFee",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "surgeBoostMultiplier",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "timeOfTheRide",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "_basePrice",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "_CostPerMminute",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "_timeOfTheRide",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "_CostPerMile",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "_RideDistance",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "_surgeBoostMultiplier",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "_bookingFee",
+          "type": "uint256"
+        }
+      ],
+      "name": "setPrice",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "getPrice",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":true,\"inputs\":[],\"name\":\"CostPerMile\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"CostPerMminute\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"PassengersRideFare\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"RideDistance\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"basePrice\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"bookingFee\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"getPrice\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"_basePrice\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"_CostPerMminute\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"_timeOfTheRide\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"_CostPerMile\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"_RideDistance\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"_surgeBoostMultiplier\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"_bookingFee\",\"type\":\"uint256\"}],\"name\":\"setPrice\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"surgeBoostMultiplier\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"timeOfTheRide\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"project:/contracts/PriceCalclate.sol\":\"Price\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/PriceCalclate.sol\":{\"keccak256\":\"0xba18db05570c4cc245ac1f8966a5fa38954825d2b062c994c92917e095ae07fe\",\"urls\":[\"bzz-raw://b5f0ea2aa6db346a9dcb8568bed37242aea38886a0611e43e78cda2ffefff15b\",\"dweb:/ipfs/QmfJQKz5TuN2P5vBw2VttpU2vmFvcLdixRWeX5fZj1wQP4\"]}},\"version\":1}",
+  "bytecode": "0x6080604052600060075534801561001557600080fd5b506102e5806100256000396000f3fe608060405234801561001057600080fd5b506004361061009e5760003560e01c80639315bec3116100665780639315bec31461013957806398d5fdca146101575780639b8a674b14610175578063bed72a69146101df578063c7876ea4146101fd5761009e565b806356e7c27e146100a357806362f3f3f2146100c15780636c788a0d146100df5780636c9b1aa3146100fd57806392ceb5eb1461011b575b600080fd5b6100ab61021b565b6040518082815260200191505060405180910390f35b6100c9610221565b6040518082815260200191505060405180910390f35b6100e7610227565b6040518082815260200191505060405180910390f35b61010561022d565b6040518082815260200191505060405180910390f35b610123610233565b6040518082815260200191505060405180910390f35b610141610239565b6040518082815260200191505060405180910390f35b61015f61023f565b6040518082815260200191505060405180910390f35b6101dd600480360360e081101561018b57600080fd5b8101908080359060200190929190803590602001909291908035906020019092919080359060200190929190803590602001909291908035906020019092919080359060200190929190505050610249565b005b6101e76102a4565b6040518082815260200191505060405180910390f35b6102056102aa565b6040518082815260200191505060405180910390f35b60025481565b60045481565b60065481565b60035481565b60075481565b60055481565b6000600754905090565b8660008190555085600181905550846002819055508360038190555082600481905550816005819055508060068190555060065460055460045460035402026002546001540201600054010160078190555050505050505050565b60015481565b6000548156fea265627a7a7231582029b067b078fa1ee526bdaa925cd4ed4f54475b400acc7d892289e44ccd62e02e64736f6c63430005100032",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b506004361061009e5760003560e01c80639315bec3116100665780639315bec31461013957806398d5fdca146101575780639b8a674b14610175578063bed72a69146101df578063c7876ea4146101fd5761009e565b806356e7c27e146100a357806362f3f3f2146100c15780636c788a0d146100df5780636c9b1aa3146100fd57806392ceb5eb1461011b575b600080fd5b6100ab61021b565b6040518082815260200191505060405180910390f35b6100c9610221565b6040518082815260200191505060405180910390f35b6100e7610227565b6040518082815260200191505060405180910390f35b61010561022d565b6040518082815260200191505060405180910390f35b610123610233565b6040518082815260200191505060405180910390f35b610141610239565b6040518082815260200191505060405180910390f35b61015f61023f565b6040518082815260200191505060405180910390f35b6101dd600480360360e081101561018b57600080fd5b8101908080359060200190929190803590602001909291908035906020019092919080359060200190929190803590602001909291908035906020019092919080359060200190929190505050610249565b005b6101e76102a4565b6040518082815260200191505060405180910390f35b6102056102aa565b6040518082815260200191505060405180910390f35b60025481565b60045481565b60065481565b60035481565b60075481565b60055481565b6000600754905090565b8660008190555085600181905550846002819055508360038190555082600481905550816005819055508060068190555060065460055460045460035402026002546001540201600054010160078190555050505050505050565b60015481565b6000548156fea265627a7a7231582029b067b078fa1ee526bdaa925cd4ed4f54475b400acc7d892289e44ccd62e02e64736f6c63430005100032",
+  "sourceMap": "35:1177:3:-;;;336:1;300:37;;35:1177;8:9:-1;5:2;;;30:1;27;20:12;5:2;35:1177:3;;;;;;;",
+  "deployedSourceMap": "35:1177:3:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;35:1177:3;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;124:28;;;:::i;:::-;;;;;;;;;;;;;;;;;;;192:27;;;:::i;:::-;;;;;;;;;;;;;;;;;;;268:25;;;:::i;:::-;;;;;;;;;;;;;;;;;;;159:26;;;:::i;:::-;;;;;;;;;;;;;;;;;;;300:37;;;:::i;:::-;;;;;;;;;;;;;;;;;;;226:35;;;:::i;:::-;;;;;;;;;;;;;;;;;;;1113:96;;;:::i;:::-;;;;;;;;;;;;;;;;;;;346:759;;;;;;13:3:-1;8;5:12;2:2;;;30:1;27;20:12;2:2;346:759:3;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;88:29;;;:::i;:::-;;;;;;;;;;;;;;;;;;;57:24;;;:::i;:::-;;;;;;;;;;;;;;;;;;;124:28;;;;:::o;192:27::-;;;;:::o;268:25::-;;;;:::o;159:26::-;;;;:::o;300:37::-;;;;:::o;226:35::-;;;;:::o;1113:96::-;1154:7;1182:18;;1174:27;;1113:96;:::o;346:759::-;630:10;618:9;:22;;;;668:15;651:14;:32;;;;710:14;694:13;:30;;;;749:12;735:11;:26;;;;787:13;772:12;:28;;;;834:21;811:20;:44;;;;879:11;866:10;:24;;;;1086:10;;1049:20;;1016:12;;1002:11;;:26;1001:68;967:13;;950:14;;:30;949:120;923:9;;:147;:173;901:18;:196;;;;346:759;;;;;;;:::o;88:29::-;;;;:::o;57:24::-;;;;:::o",
+  "source": "pragma solidity >=0.4.0 <0.9.0;\r\n\r\ncontract Price {\r\n    uint256 public basePrice;\r\n    uint256 public CostPerMminute;\r\n    uint256 public timeOfTheRide;\r\n    uint256 public CostPerMile;\r\n    uint256 public RideDistance;\r\n    uint256 public surgeBoostMultiplier;\r\n    uint256 public bookingFee;\r\n    uint256 public PassengersRideFare = 0;\r\n\r\n    function setPrice(\r\n        uint256 _basePrice,\r\n        uint256 _CostPerMminute,\r\n        uint256 _timeOfTheRide,\r\n        uint256 _CostPerMile,\r\n        uint256 _RideDistance,\r\n        uint256 _surgeBoostMultiplier,\r\n        uint256 _bookingFee\r\n    ) public {\r\n        basePrice = _basePrice;\r\n        CostPerMminute = _CostPerMminute;\r\n        timeOfTheRide = _timeOfTheRide;\r\n        CostPerMile = _CostPerMile;\r\n        RideDistance = _RideDistance;\r\n        surgeBoostMultiplier = _surgeBoostMultiplier;\r\n        bookingFee = _bookingFee;\r\n        PassengersRideFare = (basePrice +\r\n            ((CostPerMminute * timeOfTheRide) +\r\n                (CostPerMile * RideDistance) *\r\n                surgeBoostMultiplier) +\r\n            bookingFee);\r\n    }\r\n\r\n    function getPrice() public view returns (uint256) {\r\n        return (PassengersRideFare);\r\n    }\r\n}\r\n",
+  "sourcePath": "C:\\Users\\esam bn\\Desktop\\drizzle-vue\\contracts\\PriceCalclate.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/PriceCalclate.sol",
+    "exportedSymbols": {
+      "Price": [
+        932
+      ]
+    },
+    "id": 933,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 839,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".0",
+          "<",
+          "0.9",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:31:3"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 932,
+        "linearizedBaseContracts": [
+          932
+        ],
+        "name": "Price",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "constant": false,
+            "id": 841,
+            "name": "basePrice",
+            "nodeType": "VariableDeclaration",
+            "scope": 932,
+            "src": "57:24:3",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint256",
+              "typeString": "uint256"
+            },
+            "typeName": {
+              "id": 840,
+              "name": "uint256",
+              "nodeType": "ElementaryTypeName",
+              "src": "57:7:3",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint256",
+                "typeString": "uint256"
+              }
+            },
+            "value": null,
+            "visibility": "public"
+          },
+          {
+            "constant": false,
+            "id": 843,
+            "name": "CostPerMminute",
+            "nodeType": "VariableDeclaration",
+            "scope": 932,
+            "src": "88:29:3",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint256",
+              "typeString": "uint256"
+            },
+            "typeName": {
+              "id": 842,
+              "name": "uint256",
+              "nodeType": "ElementaryTypeName",
+              "src": "88:7:3",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint256",
+                "typeString": "uint256"
+              }
+            },
+            "value": null,
+            "visibility": "public"
+          },
+          {
+            "constant": false,
+            "id": 845,
+            "name": "timeOfTheRide",
+            "nodeType": "VariableDeclaration",
+            "scope": 932,
+            "src": "124:28:3",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint256",
+              "typeString": "uint256"
+            },
+            "typeName": {
+              "id": 844,
+              "name": "uint256",
+              "nodeType": "ElementaryTypeName",
+              "src": "124:7:3",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint256",
+                "typeString": "uint256"
+              }
+            },
+            "value": null,
+            "visibility": "public"
+          },
+          {
+            "constant": false,
+            "id": 847,
+            "name": "CostPerMile",
+            "nodeType": "VariableDeclaration",
+            "scope": 932,
+            "src": "159:26:3",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint256",
+              "typeString": "uint256"
+            },
+            "typeName": {
+              "id": 846,
+              "name": "uint256",
+              "nodeType": "ElementaryTypeName",
+              "src": "159:7:3",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint256",
+                "typeString": "uint256"
+              }
+            },
+            "value": null,
+            "visibility": "public"
+          },
+          {
+            "constant": false,
+            "id": 849,
+            "name": "RideDistance",
+            "nodeType": "VariableDeclaration",
+            "scope": 932,
+            "src": "192:27:3",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint256",
+              "typeString": "uint256"
+            },
+            "typeName": {
+              "id": 848,
+              "name": "uint256",
+              "nodeType": "ElementaryTypeName",
+              "src": "192:7:3",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint256",
+                "typeString": "uint256"
+              }
+            },
+            "value": null,
+            "visibility": "public"
+          },
+          {
+            "constant": false,
+            "id": 851,
+            "name": "surgeBoostMultiplier",
+            "nodeType": "VariableDeclaration",
+            "scope": 932,
+            "src": "226:35:3",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint256",
+              "typeString": "uint256"
+            },
+            "typeName": {
+              "id": 850,
+              "name": "uint256",
+              "nodeType": "ElementaryTypeName",
+              "src": "226:7:3",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint256",
+                "typeString": "uint256"
+              }
+            },
+            "value": null,
+            "visibility": "public"
+          },
+          {
+            "constant": false,
+            "id": 853,
+            "name": "bookingFee",
+            "nodeType": "VariableDeclaration",
+            "scope": 932,
+            "src": "268:25:3",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint256",
+              "typeString": "uint256"
+            },
+            "typeName": {
+              "id": 852,
+              "name": "uint256",
+              "nodeType": "ElementaryTypeName",
+              "src": "268:7:3",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint256",
+                "typeString": "uint256"
+              }
+            },
+            "value": null,
+            "visibility": "public"
+          },
+          {
+            "constant": false,
+            "id": 856,
+            "name": "PassengersRideFare",
+            "nodeType": "VariableDeclaration",
+            "scope": 932,
+            "src": "300:37:3",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint256",
+              "typeString": "uint256"
+            },
+            "typeName": {
+              "id": 854,
+              "name": "uint256",
+              "nodeType": "ElementaryTypeName",
+              "src": "300:7:3",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint256",
+                "typeString": "uint256"
+              }
+            },
+            "value": {
+              "argumentTypes": null,
+              "hexValue": "30",
+              "id": 855,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "kind": "number",
+              "lValueRequested": false,
+              "nodeType": "Literal",
+              "src": "336:1:3",
+              "subdenomination": null,
+              "typeDescriptions": {
+                "typeIdentifier": "t_rational_0_by_1",
+                "typeString": "int_const 0"
+              },
+              "value": "0"
+            },
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 921,
+              "nodeType": "Block",
+              "src": "607:498:3",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 875,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "argumentTypes": null,
+                      "id": 873,
+                      "name": "basePrice",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 841,
+                      "src": "618:9:3",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "argumentTypes": null,
+                      "id": 874,
+                      "name": "_basePrice",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 858,
+                      "src": "630:10:3",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "src": "618:22:3",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "id": 876,
+                  "nodeType": "ExpressionStatement",
+                  "src": "618:22:3"
+                },
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 879,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "argumentTypes": null,
+                      "id": 877,
+                      "name": "CostPerMminute",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 843,
+                      "src": "651:14:3",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "argumentTypes": null,
+                      "id": 878,
+                      "name": "_CostPerMminute",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 860,
+                      "src": "668:15:3",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "src": "651:32:3",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "id": 880,
+                  "nodeType": "ExpressionStatement",
+                  "src": "651:32:3"
+                },
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 883,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "argumentTypes": null,
+                      "id": 881,
+                      "name": "timeOfTheRide",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 845,
+                      "src": "694:13:3",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "argumentTypes": null,
+                      "id": 882,
+                      "name": "_timeOfTheRide",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 862,
+                      "src": "710:14:3",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "src": "694:30:3",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "id": 884,
+                  "nodeType": "ExpressionStatement",
+                  "src": "694:30:3"
+                },
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 887,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "argumentTypes": null,
+                      "id": 885,
+                      "name": "CostPerMile",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 847,
+                      "src": "735:11:3",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "argumentTypes": null,
+                      "id": 886,
+                      "name": "_CostPerMile",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 864,
+                      "src": "749:12:3",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "src": "735:26:3",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "id": 888,
+                  "nodeType": "ExpressionStatement",
+                  "src": "735:26:3"
+                },
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 891,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "argumentTypes": null,
+                      "id": 889,
+                      "name": "RideDistance",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 849,
+                      "src": "772:12:3",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "argumentTypes": null,
+                      "id": 890,
+                      "name": "_RideDistance",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 866,
+                      "src": "787:13:3",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "src": "772:28:3",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "id": 892,
+                  "nodeType": "ExpressionStatement",
+                  "src": "772:28:3"
+                },
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 895,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "argumentTypes": null,
+                      "id": 893,
+                      "name": "surgeBoostMultiplier",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 851,
+                      "src": "811:20:3",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "argumentTypes": null,
+                      "id": 894,
+                      "name": "_surgeBoostMultiplier",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 868,
+                      "src": "834:21:3",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "src": "811:44:3",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "id": 896,
+                  "nodeType": "ExpressionStatement",
+                  "src": "811:44:3"
+                },
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 899,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "argumentTypes": null,
+                      "id": 897,
+                      "name": "bookingFee",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 853,
+                      "src": "866:10:3",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "argumentTypes": null,
+                      "id": 898,
+                      "name": "_bookingFee",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 870,
+                      "src": "879:11:3",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "src": "866:24:3",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "id": 900,
+                  "nodeType": "ExpressionStatement",
+                  "src": "866:24:3"
+                },
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 919,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "argumentTypes": null,
+                      "id": 901,
+                      "name": "PassengersRideFare",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 856,
+                      "src": "901:18:3",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "argumentTypes": null,
+                      "components": [
+                        {
+                          "argumentTypes": null,
+                          "commonType": {
+                            "typeIdentifier": "t_uint256",
+                            "typeString": "uint256"
+                          },
+                          "id": 917,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "leftExpression": {
+                            "argumentTypes": null,
+                            "commonType": {
+                              "typeIdentifier": "t_uint256",
+                              "typeString": "uint256"
+                            },
+                            "id": 915,
+                            "isConstant": false,
+                            "isLValue": false,
+                            "isPure": false,
+                            "lValueRequested": false,
+                            "leftExpression": {
+                              "argumentTypes": null,
+                              "id": 902,
+                              "name": "basePrice",
+                              "nodeType": "Identifier",
+                              "overloadedDeclarations": [],
+                              "referencedDeclaration": 841,
+                              "src": "923:9:3",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_uint256",
+                                "typeString": "uint256"
+                              }
+                            },
+                            "nodeType": "BinaryOperation",
+                            "operator": "+",
+                            "rightExpression": {
+                              "argumentTypes": null,
+                              "components": [
+                                {
+                                  "argumentTypes": null,
+                                  "commonType": {
+                                    "typeIdentifier": "t_uint256",
+                                    "typeString": "uint256"
+                                  },
+                                  "id": 913,
+                                  "isConstant": false,
+                                  "isLValue": false,
+                                  "isPure": false,
+                                  "lValueRequested": false,
+                                  "leftExpression": {
+                                    "argumentTypes": null,
+                                    "components": [
+                                      {
+                                        "argumentTypes": null,
+                                        "commonType": {
+                                          "typeIdentifier": "t_uint256",
+                                          "typeString": "uint256"
+                                        },
+                                        "id": 905,
+                                        "isConstant": false,
+                                        "isLValue": false,
+                                        "isPure": false,
+                                        "lValueRequested": false,
+                                        "leftExpression": {
+                                          "argumentTypes": null,
+                                          "id": 903,
+                                          "name": "CostPerMminute",
+                                          "nodeType": "Identifier",
+                                          "overloadedDeclarations": [],
+                                          "referencedDeclaration": 843,
+                                          "src": "950:14:3",
+                                          "typeDescriptions": {
+                                            "typeIdentifier": "t_uint256",
+                                            "typeString": "uint256"
+                                          }
+                                        },
+                                        "nodeType": "BinaryOperation",
+                                        "operator": "*",
+                                        "rightExpression": {
+                                          "argumentTypes": null,
+                                          "id": 904,
+                                          "name": "timeOfTheRide",
+                                          "nodeType": "Identifier",
+                                          "overloadedDeclarations": [],
+                                          "referencedDeclaration": 845,
+                                          "src": "967:13:3",
+                                          "typeDescriptions": {
+                                            "typeIdentifier": "t_uint256",
+                                            "typeString": "uint256"
+                                          }
+                                        },
+                                        "src": "950:30:3",
+                                        "typeDescriptions": {
+                                          "typeIdentifier": "t_uint256",
+                                          "typeString": "uint256"
+                                        }
+                                      }
+                                    ],
+                                    "id": 906,
+                                    "isConstant": false,
+                                    "isInlineArray": false,
+                                    "isLValue": false,
+                                    "isPure": false,
+                                    "lValueRequested": false,
+                                    "nodeType": "TupleExpression",
+                                    "src": "949:32:3",
+                                    "typeDescriptions": {
+                                      "typeIdentifier": "t_uint256",
+                                      "typeString": "uint256"
+                                    }
+                                  },
+                                  "nodeType": "BinaryOperation",
+                                  "operator": "+",
+                                  "rightExpression": {
+                                    "argumentTypes": null,
+                                    "commonType": {
+                                      "typeIdentifier": "t_uint256",
+                                      "typeString": "uint256"
+                                    },
+                                    "id": 912,
+                                    "isConstant": false,
+                                    "isLValue": false,
+                                    "isPure": false,
+                                    "lValueRequested": false,
+                                    "leftExpression": {
+                                      "argumentTypes": null,
+                                      "components": [
+                                        {
+                                          "argumentTypes": null,
+                                          "commonType": {
+                                            "typeIdentifier": "t_uint256",
+                                            "typeString": "uint256"
+                                          },
+                                          "id": 909,
+                                          "isConstant": false,
+                                          "isLValue": false,
+                                          "isPure": false,
+                                          "lValueRequested": false,
+                                          "leftExpression": {
+                                            "argumentTypes": null,
+                                            "id": 907,
+                                            "name": "CostPerMile",
+                                            "nodeType": "Identifier",
+                                            "overloadedDeclarations": [],
+                                            "referencedDeclaration": 847,
+                                            "src": "1002:11:3",
+                                            "typeDescriptions": {
+                                              "typeIdentifier": "t_uint256",
+                                              "typeString": "uint256"
+                                            }
+                                          },
+                                          "nodeType": "BinaryOperation",
+                                          "operator": "*",
+                                          "rightExpression": {
+                                            "argumentTypes": null,
+                                            "id": 908,
+                                            "name": "RideDistance",
+                                            "nodeType": "Identifier",
+                                            "overloadedDeclarations": [],
+                                            "referencedDeclaration": 849,
+                                            "src": "1016:12:3",
+                                            "typeDescriptions": {
+                                              "typeIdentifier": "t_uint256",
+                                              "typeString": "uint256"
+                                            }
+                                          },
+                                          "src": "1002:26:3",
+                                          "typeDescriptions": {
+                                            "typeIdentifier": "t_uint256",
+                                            "typeString": "uint256"
+                                          }
+                                        }
+                                      ],
+                                      "id": 910,
+                                      "isConstant": false,
+                                      "isInlineArray": false,
+                                      "isLValue": false,
+                                      "isPure": false,
+                                      "lValueRequested": false,
+                                      "nodeType": "TupleExpression",
+                                      "src": "1001:28:3",
+                                      "typeDescriptions": {
+                                        "typeIdentifier": "t_uint256",
+                                        "typeString": "uint256"
+                                      }
+                                    },
+                                    "nodeType": "BinaryOperation",
+                                    "operator": "*",
+                                    "rightExpression": {
+                                      "argumentTypes": null,
+                                      "id": 911,
+                                      "name": "surgeBoostMultiplier",
+                                      "nodeType": "Identifier",
+                                      "overloadedDeclarations": [],
+                                      "referencedDeclaration": 851,
+                                      "src": "1049:20:3",
+                                      "typeDescriptions": {
+                                        "typeIdentifier": "t_uint256",
+                                        "typeString": "uint256"
+                                      }
+                                    },
+                                    "src": "1001:68:3",
+                                    "typeDescriptions": {
+                                      "typeIdentifier": "t_uint256",
+                                      "typeString": "uint256"
+                                    }
+                                  },
+                                  "src": "949:120:3",
+                                  "typeDescriptions": {
+                                    "typeIdentifier": "t_uint256",
+                                    "typeString": "uint256"
+                                  }
+                                }
+                              ],
+                              "id": 914,
+                              "isConstant": false,
+                              "isInlineArray": false,
+                              "isLValue": false,
+                              "isPure": false,
+                              "lValueRequested": false,
+                              "nodeType": "TupleExpression",
+                              "src": "948:122:3",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_uint256",
+                                "typeString": "uint256"
+                              }
+                            },
+                            "src": "923:147:3",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_uint256",
+                              "typeString": "uint256"
+                            }
+                          },
+                          "nodeType": "BinaryOperation",
+                          "operator": "+",
+                          "rightExpression": {
+                            "argumentTypes": null,
+                            "id": 916,
+                            "name": "bookingFee",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 853,
+                            "src": "1086:10:3",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_uint256",
+                              "typeString": "uint256"
+                            }
+                          },
+                          "src": "923:173:3",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_uint256",
+                            "typeString": "uint256"
+                          }
+                        }
+                      ],
+                      "id": 918,
+                      "isConstant": false,
+                      "isInlineArray": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "nodeType": "TupleExpression",
+                      "src": "922:175:3",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "src": "901:196:3",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "id": 920,
+                  "nodeType": "ExpressionStatement",
+                  "src": "901:196:3"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 922,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "setPrice",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 871,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 858,
+                  "name": "_basePrice",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 922,
+                  "src": "374:18:3",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 857,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "374:7:3",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 860,
+                  "name": "_CostPerMminute",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 922,
+                  "src": "403:23:3",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 859,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "403:7:3",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 862,
+                  "name": "_timeOfTheRide",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 922,
+                  "src": "437:22:3",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 861,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "437:7:3",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 864,
+                  "name": "_CostPerMile",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 922,
+                  "src": "470:20:3",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 863,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "470:7:3",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 866,
+                  "name": "_RideDistance",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 922,
+                  "src": "501:21:3",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 865,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "501:7:3",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 868,
+                  "name": "_surgeBoostMultiplier",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 922,
+                  "src": "533:29:3",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 867,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "533:7:3",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 870,
+                  "name": "_bookingFee",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 922,
+                  "src": "573:19:3",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 869,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "573:7:3",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "363:236:3"
+            },
+            "returnParameters": {
+              "id": 872,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "607:0:3"
+            },
+            "scope": 932,
+            "src": "346:759:3",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 930,
+              "nodeType": "Block",
+              "src": "1163:46:3",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "components": [
+                      {
+                        "argumentTypes": null,
+                        "id": 927,
+                        "name": "PassengersRideFare",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 856,
+                        "src": "1182:18:3",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        }
+                      }
+                    ],
+                    "id": 928,
+                    "isConstant": false,
+                    "isInlineArray": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "nodeType": "TupleExpression",
+                    "src": "1181:20:3",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "functionReturnParameters": 926,
+                  "id": 929,
+                  "nodeType": "Return",
+                  "src": "1174:27:3"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 931,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "getPrice",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 923,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "1130:2:3"
+            },
+            "returnParameters": {
+              "id": 926,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 925,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 931,
+                  "src": "1154:7:3",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 924,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1154:7:3",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "1153:9:3"
+            },
+            "scope": 932,
+            "src": "1113:96:3",
+            "stateMutability": "view",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 933,
+        "src": "35:1177:3"
+      }
+    ],
+    "src": "0:1214:3"
+  },
+  "legacyAST": {
+    "attributes": {
+      "absolutePath": "project:/contracts/PriceCalclate.sol",
+      "exportedSymbols": {
+        "Price": [
+          932
+        ]
+      }
+    },
+    "children": [
+      {
+        "attributes": {
+          "literals": [
+            "solidity",
+            ">=",
+            "0.4",
+            ".0",
+            "<",
+            "0.9",
+            ".0"
+          ]
+        },
+        "id": 839,
+        "name": "PragmaDirective",
+        "src": "0:31:3"
+      },
+      {
+        "attributes": {
+          "baseContracts": [
+            null
+          ],
+          "contractDependencies": [
+            null
+          ],
+          "contractKind": "contract",
+          "documentation": null,
+          "fullyImplemented": true,
+          "linearizedBaseContracts": [
+            932
+          ],
+          "name": "Price",
+          "scope": 933
+        },
+        "children": [
+          {
+            "attributes": {
+              "constant": false,
+              "name": "basePrice",
+              "scope": 932,
+              "stateVariable": true,
+              "storageLocation": "default",
+              "type": "uint256",
+              "value": null,
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "name": "uint256",
+                  "type": "uint256"
+                },
+                "id": 840,
+                "name": "ElementaryTypeName",
+                "src": "57:7:3"
+              }
+            ],
+            "id": 841,
+            "name": "VariableDeclaration",
+            "src": "57:24:3"
+          },
+          {
+            "attributes": {
+              "constant": false,
+              "name": "CostPerMminute",
+              "scope": 932,
+              "stateVariable": true,
+              "storageLocation": "default",
+              "type": "uint256",
+              "value": null,
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "name": "uint256",
+                  "type": "uint256"
+                },
+                "id": 842,
+                "name": "ElementaryTypeName",
+                "src": "88:7:3"
+              }
+            ],
+            "id": 843,
+            "name": "VariableDeclaration",
+            "src": "88:29:3"
+          },
+          {
+            "attributes": {
+              "constant": false,
+              "name": "timeOfTheRide",
+              "scope": 932,
+              "stateVariable": true,
+              "storageLocation": "default",
+              "type": "uint256",
+              "value": null,
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "name": "uint256",
+                  "type": "uint256"
+                },
+                "id": 844,
+                "name": "ElementaryTypeName",
+                "src": "124:7:3"
+              }
+            ],
+            "id": 845,
+            "name": "VariableDeclaration",
+            "src": "124:28:3"
+          },
+          {
+            "attributes": {
+              "constant": false,
+              "name": "CostPerMile",
+              "scope": 932,
+              "stateVariable": true,
+              "storageLocation": "default",
+              "type": "uint256",
+              "value": null,
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "name": "uint256",
+                  "type": "uint256"
+                },
+                "id": 846,
+                "name": "ElementaryTypeName",
+                "src": "159:7:3"
+              }
+            ],
+            "id": 847,
+            "name": "VariableDeclaration",
+            "src": "159:26:3"
+          },
+          {
+            "attributes": {
+              "constant": false,
+              "name": "RideDistance",
+              "scope": 932,
+              "stateVariable": true,
+              "storageLocation": "default",
+              "type": "uint256",
+              "value": null,
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "name": "uint256",
+                  "type": "uint256"
+                },
+                "id": 848,
+                "name": "ElementaryTypeName",
+                "src": "192:7:3"
+              }
+            ],
+            "id": 849,
+            "name": "VariableDeclaration",
+            "src": "192:27:3"
+          },
+          {
+            "attributes": {
+              "constant": false,
+              "name": "surgeBoostMultiplier",
+              "scope": 932,
+              "stateVariable": true,
+              "storageLocation": "default",
+              "type": "uint256",
+              "value": null,
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "name": "uint256",
+                  "type": "uint256"
+                },
+                "id": 850,
+                "name": "ElementaryTypeName",
+                "src": "226:7:3"
+              }
+            ],
+            "id": 851,
+            "name": "VariableDeclaration",
+            "src": "226:35:3"
+          },
+          {
+            "attributes": {
+              "constant": false,
+              "name": "bookingFee",
+              "scope": 932,
+              "stateVariable": true,
+              "storageLocation": "default",
+              "type": "uint256",
+              "value": null,
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "name": "uint256",
+                  "type": "uint256"
+                },
+                "id": 852,
+                "name": "ElementaryTypeName",
+                "src": "268:7:3"
+              }
+            ],
+            "id": 853,
+            "name": "VariableDeclaration",
+            "src": "268:25:3"
+          },
+          {
+            "attributes": {
+              "constant": false,
+              "name": "PassengersRideFare",
+              "scope": 932,
+              "stateVariable": true,
+              "storageLocation": "default",
+              "type": "uint256",
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "name": "uint256",
+                  "type": "uint256"
+                },
+                "id": 854,
+                "name": "ElementaryTypeName",
+                "src": "300:7:3"
+              },
+              {
+                "attributes": {
+                  "argumentTypes": null,
+                  "hexvalue": "30",
+                  "isConstant": false,
+                  "isLValue": false,
+                  "isPure": true,
+                  "lValueRequested": false,
+                  "subdenomination": null,
+                  "token": "number",
+                  "type": "int_const 0",
+                  "value": "0"
+                },
+                "id": 855,
+                "name": "Literal",
+                "src": "336:1:3"
+              }
+            ],
+            "id": 856,
+            "name": "VariableDeclaration",
+            "src": "300:37:3"
+          },
+          {
+            "attributes": {
+              "documentation": null,
+              "implemented": true,
+              "isConstructor": false,
+              "kind": "function",
+              "modifiers": [
+                null
+              ],
+              "name": "setPrice",
+              "scope": 932,
+              "stateMutability": "nonpayable",
+              "superFunction": null,
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "name": "_basePrice",
+                      "scope": 922,
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "type": "uint256",
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "uint256",
+                          "type": "uint256"
+                        },
+                        "id": 857,
+                        "name": "ElementaryTypeName",
+                        "src": "374:7:3"
+                      }
+                    ],
+                    "id": 858,
+                    "name": "VariableDeclaration",
+                    "src": "374:18:3"
+                  },
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "name": "_CostPerMminute",
+                      "scope": 922,
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "type": "uint256",
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "uint256",
+                          "type": "uint256"
+                        },
+                        "id": 859,
+                        "name": "ElementaryTypeName",
+                        "src": "403:7:3"
+                      }
+                    ],
+                    "id": 860,
+                    "name": "VariableDeclaration",
+                    "src": "403:23:3"
+                  },
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "name": "_timeOfTheRide",
+                      "scope": 922,
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "type": "uint256",
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "uint256",
+                          "type": "uint256"
+                        },
+                        "id": 861,
+                        "name": "ElementaryTypeName",
+                        "src": "437:7:3"
+                      }
+                    ],
+                    "id": 862,
+                    "name": "VariableDeclaration",
+                    "src": "437:22:3"
+                  },
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "name": "_CostPerMile",
+                      "scope": 922,
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "type": "uint256",
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "uint256",
+                          "type": "uint256"
+                        },
+                        "id": 863,
+                        "name": "ElementaryTypeName",
+                        "src": "470:7:3"
+                      }
+                    ],
+                    "id": 864,
+                    "name": "VariableDeclaration",
+                    "src": "470:20:3"
+                  },
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "name": "_RideDistance",
+                      "scope": 922,
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "type": "uint256",
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "uint256",
+                          "type": "uint256"
+                        },
+                        "id": 865,
+                        "name": "ElementaryTypeName",
+                        "src": "501:7:3"
+                      }
+                    ],
+                    "id": 866,
+                    "name": "VariableDeclaration",
+                    "src": "501:21:3"
+                  },
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "name": "_surgeBoostMultiplier",
+                      "scope": 922,
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "type": "uint256",
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "uint256",
+                          "type": "uint256"
+                        },
+                        "id": 867,
+                        "name": "ElementaryTypeName",
+                        "src": "533:7:3"
+                      }
+                    ],
+                    "id": 868,
+                    "name": "VariableDeclaration",
+                    "src": "533:29:3"
+                  },
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "name": "_bookingFee",
+                      "scope": 922,
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "type": "uint256",
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "uint256",
+                          "type": "uint256"
+                        },
+                        "id": 869,
+                        "name": "ElementaryTypeName",
+                        "src": "573:7:3"
+                      }
+                    ],
+                    "id": 870,
+                    "name": "VariableDeclaration",
+                    "src": "573:19:3"
+                  }
+                ],
+                "id": 871,
+                "name": "ParameterList",
+                "src": "363:236:3"
+              },
+              {
+                "attributes": {
+                  "parameters": [
+                    null
+                  ]
+                },
+                "children": [],
+                "id": 872,
+                "name": "ParameterList",
+                "src": "607:0:3"
+              },
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "attributes": {
+                          "argumentTypes": null,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "operator": "=",
+                          "type": "uint256"
+                        },
+                        "children": [
+                          {
+                            "attributes": {
+                              "argumentTypes": null,
+                              "overloadedDeclarations": [
+                                null
+                              ],
+                              "referencedDeclaration": 841,
+                              "type": "uint256",
+                              "value": "basePrice"
+                            },
+                            "id": 873,
+                            "name": "Identifier",
+                            "src": "618:9:3"
+                          },
+                          {
+                            "attributes": {
+                              "argumentTypes": null,
+                              "overloadedDeclarations": [
+                                null
+                              ],
+                              "referencedDeclaration": 858,
+                              "type": "uint256",
+                              "value": "_basePrice"
+                            },
+                            "id": 874,
+                            "name": "Identifier",
+                            "src": "630:10:3"
+                          }
+                        ],
+                        "id": 875,
+                        "name": "Assignment",
+                        "src": "618:22:3"
+                      }
+                    ],
+                    "id": 876,
+                    "name": "ExpressionStatement",
+                    "src": "618:22:3"
+                  },
+                  {
+                    "children": [
+                      {
+                        "attributes": {
+                          "argumentTypes": null,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "operator": "=",
+                          "type": "uint256"
+                        },
+                        "children": [
+                          {
+                            "attributes": {
+                              "argumentTypes": null,
+                              "overloadedDeclarations": [
+                                null
+                              ],
+                              "referencedDeclaration": 843,
+                              "type": "uint256",
+                              "value": "CostPerMminute"
+                            },
+                            "id": 877,
+                            "name": "Identifier",
+                            "src": "651:14:3"
+                          },
+                          {
+                            "attributes": {
+                              "argumentTypes": null,
+                              "overloadedDeclarations": [
+                                null
+                              ],
+                              "referencedDeclaration": 860,
+                              "type": "uint256",
+                              "value": "_CostPerMminute"
+                            },
+                            "id": 878,
+                            "name": "Identifier",
+                            "src": "668:15:3"
+                          }
+                        ],
+                        "id": 879,
+                        "name": "Assignment",
+                        "src": "651:32:3"
+                      }
+                    ],
+                    "id": 880,
+                    "name": "ExpressionStatement",
+                    "src": "651:32:3"
+                  },
+                  {
+                    "children": [
+                      {
+                        "attributes": {
+                          "argumentTypes": null,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "operator": "=",
+                          "type": "uint256"
+                        },
+                        "children": [
+                          {
+                            "attributes": {
+                              "argumentTypes": null,
+                              "overloadedDeclarations": [
+                                null
+                              ],
+                              "referencedDeclaration": 845,
+                              "type": "uint256",
+                              "value": "timeOfTheRide"
+                            },
+                            "id": 881,
+                            "name": "Identifier",
+                            "src": "694:13:3"
+                          },
+                          {
+                            "attributes": {
+                              "argumentTypes": null,
+                              "overloadedDeclarations": [
+                                null
+                              ],
+                              "referencedDeclaration": 862,
+                              "type": "uint256",
+                              "value": "_timeOfTheRide"
+                            },
+                            "id": 882,
+                            "name": "Identifier",
+                            "src": "710:14:3"
+                          }
+                        ],
+                        "id": 883,
+                        "name": "Assignment",
+                        "src": "694:30:3"
+                      }
+                    ],
+                    "id": 884,
+                    "name": "ExpressionStatement",
+                    "src": "694:30:3"
+                  },
+                  {
+                    "children": [
+                      {
+                        "attributes": {
+                          "argumentTypes": null,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "operator": "=",
+                          "type": "uint256"
+                        },
+                        "children": [
+                          {
+                            "attributes": {
+                              "argumentTypes": null,
+                              "overloadedDeclarations": [
+                                null
+                              ],
+                              "referencedDeclaration": 847,
+                              "type": "uint256",
+                              "value": "CostPerMile"
+                            },
+                            "id": 885,
+                            "name": "Identifier",
+                            "src": "735:11:3"
+                          },
+                          {
+                            "attributes": {
+                              "argumentTypes": null,
+                              "overloadedDeclarations": [
+                                null
+                              ],
+                              "referencedDeclaration": 864,
+                              "type": "uint256",
+                              "value": "_CostPerMile"
+                            },
+                            "id": 886,
+                            "name": "Identifier",
+                            "src": "749:12:3"
+                          }
+                        ],
+                        "id": 887,
+                        "name": "Assignment",
+                        "src": "735:26:3"
+                      }
+                    ],
+                    "id": 888,
+                    "name": "ExpressionStatement",
+                    "src": "735:26:3"
+                  },
+                  {
+                    "children": [
+                      {
+                        "attributes": {
+                          "argumentTypes": null,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "operator": "=",
+                          "type": "uint256"
+                        },
+                        "children": [
+                          {
+                            "attributes": {
+                              "argumentTypes": null,
+                              "overloadedDeclarations": [
+                                null
+                              ],
+                              "referencedDeclaration": 849,
+                              "type": "uint256",
+                              "value": "RideDistance"
+                            },
+                            "id": 889,
+                            "name": "Identifier",
+                            "src": "772:12:3"
+                          },
+                          {
+                            "attributes": {
+                              "argumentTypes": null,
+                              "overloadedDeclarations": [
+                                null
+                              ],
+                              "referencedDeclaration": 866,
+                              "type": "uint256",
+                              "value": "_RideDistance"
+                            },
+                            "id": 890,
+                            "name": "Identifier",
+                            "src": "787:13:3"
+                          }
+                        ],
+                        "id": 891,
+                        "name": "Assignment",
+                        "src": "772:28:3"
+                      }
+                    ],
+                    "id": 892,
+                    "name": "ExpressionStatement",
+                    "src": "772:28:3"
+                  },
+                  {
+                    "children": [
+                      {
+                        "attributes": {
+                          "argumentTypes": null,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "operator": "=",
+                          "type": "uint256"
+                        },
+                        "children": [
+                          {
+                            "attributes": {
+                              "argumentTypes": null,
+                              "overloadedDeclarations": [
+                                null
+                              ],
+                              "referencedDeclaration": 851,
+                              "type": "uint256",
+                              "value": "surgeBoostMultiplier"
+                            },
+                            "id": 893,
+                            "name": "Identifier",
+                            "src": "811:20:3"
+                          },
+                          {
+                            "attributes": {
+                              "argumentTypes": null,
+                              "overloadedDeclarations": [
+                                null
+                              ],
+                              "referencedDeclaration": 868,
+                              "type": "uint256",
+                              "value": "_surgeBoostMultiplier"
+                            },
+                            "id": 894,
+                            "name": "Identifier",
+                            "src": "834:21:3"
+                          }
+                        ],
+                        "id": 895,
+                        "name": "Assignment",
+                        "src": "811:44:3"
+                      }
+                    ],
+                    "id": 896,
+                    "name": "ExpressionStatement",
+                    "src": "811:44:3"
+                  },
+                  {
+                    "children": [
+                      {
+                        "attributes": {
+                          "argumentTypes": null,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "operator": "=",
+                          "type": "uint256"
+                        },
+                        "children": [
+                          {
+                            "attributes": {
+                              "argumentTypes": null,
+                              "overloadedDeclarations": [
+                                null
+                              ],
+                              "referencedDeclaration": 853,
+                              "type": "uint256",
+                              "value": "bookingFee"
+                            },
+                            "id": 897,
+                            "name": "Identifier",
+                            "src": "866:10:3"
+                          },
+                          {
+                            "attributes": {
+                              "argumentTypes": null,
+                              "overloadedDeclarations": [
+                                null
+                              ],
+                              "referencedDeclaration": 870,
+                              "type": "uint256",
+                              "value": "_bookingFee"
+                            },
+                            "id": 898,
+                            "name": "Identifier",
+                            "src": "879:11:3"
+                          }
+                        ],
+                        "id": 899,
+                        "name": "Assignment",
+                        "src": "866:24:3"
+                      }
+                    ],
+                    "id": 900,
+                    "name": "ExpressionStatement",
+                    "src": "866:24:3"
+                  },
+                  {
+                    "children": [
+                      {
+                        "attributes": {
+                          "argumentTypes": null,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "operator": "=",
+                          "type": "uint256"
+                        },
+                        "children": [
+                          {
+                            "attributes": {
+                              "argumentTypes": null,
+                              "overloadedDeclarations": [
+                                null
+                              ],
+                              "referencedDeclaration": 856,
+                              "type": "uint256",
+                              "value": "PassengersRideFare"
+                            },
+                            "id": 901,
+                            "name": "Identifier",
+                            "src": "901:18:3"
+                          },
+                          {
+                            "attributes": {
+                              "argumentTypes": null,
+                              "isConstant": false,
+                              "isInlineArray": false,
+                              "isLValue": false,
+                              "isPure": false,
+                              "lValueRequested": false,
+                              "type": "uint256"
+                            },
+                            "children": [
+                              {
+                                "attributes": {
+                                  "argumentTypes": null,
+                                  "commonType": {
+                                    "typeIdentifier": "t_uint256",
+                                    "typeString": "uint256"
+                                  },
+                                  "isConstant": false,
+                                  "isLValue": false,
+                                  "isPure": false,
+                                  "lValueRequested": false,
+                                  "operator": "+",
+                                  "type": "uint256"
+                                },
+                                "children": [
+                                  {
+                                    "attributes": {
+                                      "argumentTypes": null,
+                                      "commonType": {
+                                        "typeIdentifier": "t_uint256",
+                                        "typeString": "uint256"
+                                      },
+                                      "isConstant": false,
+                                      "isLValue": false,
+                                      "isPure": false,
+                                      "lValueRequested": false,
+                                      "operator": "+",
+                                      "type": "uint256"
+                                    },
+                                    "children": [
+                                      {
+                                        "attributes": {
+                                          "argumentTypes": null,
+                                          "overloadedDeclarations": [
+                                            null
+                                          ],
+                                          "referencedDeclaration": 841,
+                                          "type": "uint256",
+                                          "value": "basePrice"
+                                        },
+                                        "id": 902,
+                                        "name": "Identifier",
+                                        "src": "923:9:3"
+                                      },
+                                      {
+                                        "attributes": {
+                                          "argumentTypes": null,
+                                          "isConstant": false,
+                                          "isInlineArray": false,
+                                          "isLValue": false,
+                                          "isPure": false,
+                                          "lValueRequested": false,
+                                          "type": "uint256"
+                                        },
+                                        "children": [
+                                          {
+                                            "attributes": {
+                                              "argumentTypes": null,
+                                              "commonType": {
+                                                "typeIdentifier": "t_uint256",
+                                                "typeString": "uint256"
+                                              },
+                                              "isConstant": false,
+                                              "isLValue": false,
+                                              "isPure": false,
+                                              "lValueRequested": false,
+                                              "operator": "+",
+                                              "type": "uint256"
+                                            },
+                                            "children": [
+                                              {
+                                                "attributes": {
+                                                  "argumentTypes": null,
+                                                  "isConstant": false,
+                                                  "isInlineArray": false,
+                                                  "isLValue": false,
+                                                  "isPure": false,
+                                                  "lValueRequested": false,
+                                                  "type": "uint256"
+                                                },
+                                                "children": [
+                                                  {
+                                                    "attributes": {
+                                                      "argumentTypes": null,
+                                                      "commonType": {
+                                                        "typeIdentifier": "t_uint256",
+                                                        "typeString": "uint256"
+                                                      },
+                                                      "isConstant": false,
+                                                      "isLValue": false,
+                                                      "isPure": false,
+                                                      "lValueRequested": false,
+                                                      "operator": "*",
+                                                      "type": "uint256"
+                                                    },
+                                                    "children": [
+                                                      {
+                                                        "attributes": {
+                                                          "argumentTypes": null,
+                                                          "overloadedDeclarations": [
+                                                            null
+                                                          ],
+                                                          "referencedDeclaration": 843,
+                                                          "type": "uint256",
+                                                          "value": "CostPerMminute"
+                                                        },
+                                                        "id": 903,
+                                                        "name": "Identifier",
+                                                        "src": "950:14:3"
+                                                      },
+                                                      {
+                                                        "attributes": {
+                                                          "argumentTypes": null,
+                                                          "overloadedDeclarations": [
+                                                            null
+                                                          ],
+                                                          "referencedDeclaration": 845,
+                                                          "type": "uint256",
+                                                          "value": "timeOfTheRide"
+                                                        },
+                                                        "id": 904,
+                                                        "name": "Identifier",
+                                                        "src": "967:13:3"
+                                                      }
+                                                    ],
+                                                    "id": 905,
+                                                    "name": "BinaryOperation",
+                                                    "src": "950:30:3"
+                                                  }
+                                                ],
+                                                "id": 906,
+                                                "name": "TupleExpression",
+                                                "src": "949:32:3"
+                                              },
+                                              {
+                                                "attributes": {
+                                                  "argumentTypes": null,
+                                                  "commonType": {
+                                                    "typeIdentifier": "t_uint256",
+                                                    "typeString": "uint256"
+                                                  },
+                                                  "isConstant": false,
+                                                  "isLValue": false,
+                                                  "isPure": false,
+                                                  "lValueRequested": false,
+                                                  "operator": "*",
+                                                  "type": "uint256"
+                                                },
+                                                "children": [
+                                                  {
+                                                    "attributes": {
+                                                      "argumentTypes": null,
+                                                      "isConstant": false,
+                                                      "isInlineArray": false,
+                                                      "isLValue": false,
+                                                      "isPure": false,
+                                                      "lValueRequested": false,
+                                                      "type": "uint256"
+                                                    },
+                                                    "children": [
+                                                      {
+                                                        "attributes": {
+                                                          "argumentTypes": null,
+                                                          "commonType": {
+                                                            "typeIdentifier": "t_uint256",
+                                                            "typeString": "uint256"
+                                                          },
+                                                          "isConstant": false,
+                                                          "isLValue": false,
+                                                          "isPure": false,
+                                                          "lValueRequested": false,
+                                                          "operator": "*",
+                                                          "type": "uint256"
+                                                        },
+                                                        "children": [
+                                                          {
+                                                            "attributes": {
+                                                              "argumentTypes": null,
+                                                              "overloadedDeclarations": [
+                                                                null
+                                                              ],
+                                                              "referencedDeclaration": 847,
+                                                              "type": "uint256",
+                                                              "value": "CostPerMile"
+                                                            },
+                                                            "id": 907,
+                                                            "name": "Identifier",
+                                                            "src": "1002:11:3"
+                                                          },
+                                                          {
+                                                            "attributes": {
+                                                              "argumentTypes": null,
+                                                              "overloadedDeclarations": [
+                                                                null
+                                                              ],
+                                                              "referencedDeclaration": 849,
+                                                              "type": "uint256",
+                                                              "value": "RideDistance"
+                                                            },
+                                                            "id": 908,
+                                                            "name": "Identifier",
+                                                            "src": "1016:12:3"
+                                                          }
+                                                        ],
+                                                        "id": 909,
+                                                        "name": "BinaryOperation",
+                                                        "src": "1002:26:3"
+                                                      }
+                                                    ],
+                                                    "id": 910,
+                                                    "name": "TupleExpression",
+                                                    "src": "1001:28:3"
+                                                  },
+                                                  {
+                                                    "attributes": {
+                                                      "argumentTypes": null,
+                                                      "overloadedDeclarations": [
+                                                        null
+                                                      ],
+                                                      "referencedDeclaration": 851,
+                                                      "type": "uint256",
+                                                      "value": "surgeBoostMultiplier"
+                                                    },
+                                                    "id": 911,
+                                                    "name": "Identifier",
+                                                    "src": "1049:20:3"
+                                                  }
+                                                ],
+                                                "id": 912,
+                                                "name": "BinaryOperation",
+                                                "src": "1001:68:3"
+                                              }
+                                            ],
+                                            "id": 913,
+                                            "name": "BinaryOperation",
+                                            "src": "949:120:3"
+                                          }
+                                        ],
+                                        "id": 914,
+                                        "name": "TupleExpression",
+                                        "src": "948:122:3"
+                                      }
+                                    ],
+                                    "id": 915,
+                                    "name": "BinaryOperation",
+                                    "src": "923:147:3"
+                                  },
+                                  {
+                                    "attributes": {
+                                      "argumentTypes": null,
+                                      "overloadedDeclarations": [
+                                        null
+                                      ],
+                                      "referencedDeclaration": 853,
+                                      "type": "uint256",
+                                      "value": "bookingFee"
+                                    },
+                                    "id": 916,
+                                    "name": "Identifier",
+                                    "src": "1086:10:3"
+                                  }
+                                ],
+                                "id": 917,
+                                "name": "BinaryOperation",
+                                "src": "923:173:3"
+                              }
+                            ],
+                            "id": 918,
+                            "name": "TupleExpression",
+                            "src": "922:175:3"
+                          }
+                        ],
+                        "id": 919,
+                        "name": "Assignment",
+                        "src": "901:196:3"
+                      }
+                    ],
+                    "id": 920,
+                    "name": "ExpressionStatement",
+                    "src": "901:196:3"
+                  }
+                ],
+                "id": 921,
+                "name": "Block",
+                "src": "607:498:3"
+              }
+            ],
+            "id": 922,
+            "name": "FunctionDefinition",
+            "src": "346:759:3"
+          },
+          {
+            "attributes": {
+              "documentation": null,
+              "implemented": true,
+              "isConstructor": false,
+              "kind": "function",
+              "modifiers": [
+                null
+              ],
+              "name": "getPrice",
+              "scope": 932,
+              "stateMutability": "view",
+              "superFunction": null,
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "parameters": [
+                    null
+                  ]
+                },
+                "children": [],
+                "id": 923,
+                "name": "ParameterList",
+                "src": "1130:2:3"
+              },
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "name": "",
+                      "scope": 931,
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "type": "uint256",
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "uint256",
+                          "type": "uint256"
+                        },
+                        "id": 924,
+                        "name": "ElementaryTypeName",
+                        "src": "1154:7:3"
+                      }
+                    ],
+                    "id": 925,
+                    "name": "VariableDeclaration",
+                    "src": "1154:7:3"
+                  }
+                ],
+                "id": 926,
+                "name": "ParameterList",
+                "src": "1153:9:3"
+              },
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "functionReturnParameters": 926
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "argumentTypes": null,
+                          "isConstant": false,
+                          "isInlineArray": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "type": "uint256"
+                        },
+                        "children": [
+                          {
+                            "attributes": {
+                              "argumentTypes": null,
+                              "overloadedDeclarations": [
+                                null
+                              ],
+                              "referencedDeclaration": 856,
+                              "type": "uint256",
+                              "value": "PassengersRideFare"
+                            },
+                            "id": 927,
+                            "name": "Identifier",
+                            "src": "1182:18:3"
+                          }
+                        ],
+                        "id": 928,
+                        "name": "TupleExpression",
+                        "src": "1181:20:3"
+                      }
+                    ],
+                    "id": 929,
+                    "name": "Return",
+                    "src": "1174:27:3"
+                  }
+                ],
+                "id": 930,
+                "name": "Block",
+                "src": "1163:46:3"
+              }
+            ],
+            "id": 931,
+            "name": "FunctionDefinition",
+            "src": "1113:96:3"
+          }
+        ],
+        "id": 932,
+        "name": "ContractDefinition",
+        "src": "35:1177:3"
+      }
+    ],
+    "id": 933,
+    "name": "SourceUnit",
+    "src": "0:1214:3"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
+  },
+  "networks": {
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0xC58ecf5993D28A1A34Ab9Dcf4dE5F405804b4D14",
+      "transactionHash": "0xfba22078a3a0ecdd2a7bc6f5fb98d850ef9fc96840fa253d9bbd747fb19920c0"
+    }
+  },
+  "schemaVersion": "3.4.2",
+  "updatedAt": "2021-08-21T19:36:38.794Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}
